@@ -1,0 +1,12 @@
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+    gap: 1rem;
+}
+.inputStyle{
+    width: 100%;
+    height: 4vh;
+    background-color: white;
+    border-radius: .4rem
+}

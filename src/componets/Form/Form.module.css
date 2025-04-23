@@ -1,0 +1,27 @@
+.mainContainer {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: #064012;
+    background: radial-gradient(circle, rgba(6, 64, 18, 1) 1%, rgba(83, 183, 101, 1) 54%, rgba(27, 92, 35, 1) 99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentContainer {
+    background:whitesmoke;
+    width: 30%;
+    height: 70%;
+    border-radius: .4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .7rem;
+}
+
+.errorMessage {
+    color: red;
+    text-decoration: underline;
+}
